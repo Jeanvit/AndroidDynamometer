@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "C:\\Users\\Casa\\Desktop\\conexaoDBF1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Casa\\Desktop\\conexaoDBF1\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Casa\\Desktop\\conexaoDBF1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_ajuda.xml",
+        "source": "C:\\Users\\Casa\\Desktop\\conexaoDBF1\\app\\src\\main\\res\\layout\\activity_ajuda.xml"
+    },
+    {
+        "merged": "C:\\Users\\Casa\\Desktop\\conexaoDBF1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_bluetooth1.xml",
+        "source": "C:\\Users\\Casa\\Desktop\\conexaoDBF1\\app\\src\\main\\res\\layout\\activity_bluetooth1.xml"
+    },
+    {
+        "merged": "C:\\Users\\Casa\\Desktop\\conexaoDBF1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_telaprincipal.xml",
+        "source": "C:\\Users\\Casa\\Desktop\\conexaoDBF1\\app\\src\\main\\res\\layout\\activity_telaprincipal.xml"
+    },
+    {
+        "merged": "C:\\Users\\Casa\\Desktop\\conexaoDBF1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_listatestes.xml",
+        "source": "C:\\Users\\Casa\\Desktop\\conexaoDBF1\\app\\src\\main\\res\\layout\\activity_listatestes.xml"
+    },
+    {
+        "merged": "C:\\Users\\Casa\\Desktop\\conexaoDBF1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_bluetooth.xml",
+        "source": "C:\\Users\\Casa\\Desktop\\conexaoDBF1\\app\\src\\main\\res\\layout\\activity_bluetooth.xml"
+    },
+    {
+        "merged": "C:\\Users\\Casa\\Desktop\\conexaoDBF1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_cadastroava.xml",
+        "source": "C:\\Users\\Casa\\Desktop\\conexaoDBF1\\app\\src\\main\\res\\layout\\activity_cadastroava.xml"
+    },
+    {
+        "merged": "C:\\Users\\Casa\\Desktop\\conexaoDBF1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_pesquisaavaliador.xml",
+        "source": "C:\\Users\\Casa\\Desktop\\conexaoDBF1\\app\\src\\main\\res\\layout\\activity_pesquisaavaliador.xml"
+    },
+    {
+        "merged": "C:\\Users\\Casa\\Desktop\\conexaoDBF1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_configuracoes.xml",
+        "source": "C:\\Users\\Casa\\Desktop\\conexaoDBF1\\app\\src\\main\\res\\layout\\activity_configuracoes.xml"
+    },
+    {
+        "merged": "C:\\Users\\Casa\\Desktop\\conexaoDBF1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\testes.xml",
+        "source": "C:\\Users\\Casa\\Desktop\\conexaoDBF1\\app\\src\\main\\res\\layout\\testes.xml"
+    },
+    {
+        "merged": "C:\\Users\\Casa\\Desktop\\conexaoDBF1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lvtestes.xml",
+        "source": "C:\\Users\\Casa\\Desktop\\conexaoDBF1\\app\\src\\main\\res\\layout\\lvtestes.xml"
+    },
+    {
+        "merged": "C:\\Users\\Casa\\Desktop\\conexaoDBF1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_pesquisa.xml",
+        "source": "C:\\Users\\Casa\\Desktop\\conexaoDBF1\\app\\src\\main\\res\\layout\\activity_pesquisa.xml"
+    },
+    {
+        "merged": "C:\\Users\\Casa\\Desktop\\conexaoDBF1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_visuexame.xml",
+        "source": "C:\\Users\\Casa\\Desktop\\conexaoDBF1\\app\\src\\main\\res\\layout\\activity_visuexame.xml"
+    },
+    {
+        "merged": "C:\\Users\\Casa\\Desktop\\conexaoDBF1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_evolucao.xml",
+        "source": "C:\\Users\\Casa\\Desktop\\conexaoDBF1\\app\\src\\main\\res\\layout\\activity_evolucao.xml"
+    },
+    {
+        "merged": "C:\\Users\\Casa\\Desktop\\conexaoDBF1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lvpesquisa1.xml",
+        "source": "C:\\Users\\Casa\\Desktop\\conexaoDBF1\\app\\src\\main\\res\\layout\\lvpesquisa1.xml"
+    },
+    {
+        "merged": "C:\\Users\\Casa\\Desktop\\conexaoDBF1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_listatestesavaliador.xml",
+        "source": "C:\\Users\\Casa\\Desktop\\conexaoDBF1\\app\\src\\main\\res\\layout\\activity_listatestesavaliador.xml"
+    }
+]

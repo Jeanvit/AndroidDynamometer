@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.gesture.GestureOverlayView xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/gesturesConfig"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:eventsInterceptionEnabled="true"
+android:gestureStrokeType="multiple"
+android:orientation="vertical" >
+
+<AbsoluteLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="374dp"
+        android:layout_height="369dp"
+        android:layout_x="435dp"
+        android:layout_y="163dp" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Grafico:"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/tvvalMax"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="47dp"
+            android:text="Valor Maximo:"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/TextView03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/tvvalMax"
+            android:layout_below="@+id/tvvalMax"
+            android:layout_marginTop="67dp"
+            android:text="Valor Minimo:"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/TextView04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/TextView03"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="69dp"
+            android:text="Step:"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edtgMax"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvvalMax"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:enabled="false"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/edtevoPessoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/TextView03"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:enabled="false"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/edtgStep"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/TextView04"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:enabled="false"
+            android:inputType="numberDecimal" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/tvvalMax"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/grafico" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="374dp"
+        android:layout_height="321dp"
+        android:layout_x="852dp"
+        android:layout_y="163dp" >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Bluetooth:"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/tvMao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="37dp"
+            android:text="Mac address:"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/TextView06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvMao"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="67dp"
+            android:text="Taxa de amostragem (ms):"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edtMac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/edtTaxa"
+            android:layout_alignRight="@+id/edtTaxa"
+            android:layout_below="@+id/tvMao"
+            android:ems="10"
+            android:enabled="false" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/edtTaxa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/TextView06"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:enabled="false"
+            android:inputType="number" />
+
+        <ImageView
+            android:id="@+id/ImageView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/tvMao"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/bt" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="374dp"
+        android:layout_height="375dp"
+        android:layout_x="8dp"
+        android:layout_y="163dp" >
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView4"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="47dp"
+            android:text="Multiplicador"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView5"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="67dp"
+            android:text="Divisor"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edtCoefAng"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView5"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:enabled="false"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/edtCoefLin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/TextView01"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:enabled="false"
+            android:inputType="numberDecimal" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="Calibração:"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView5"
+            android:src="@drawable/calibracao" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="110dp"
+        android:layout_y="29dp"
+        android:text="Configurações"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="60sp" />
+
+    <ImageView
+        android:id="@+id/ImageView02"
+        android:layout_width="504dp"
+        android:layout_height="485dp"
+        android:layout_x="849dp"
+        android:layout_y="309dp"
+        android:src="@drawable/fundo" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_x="27dp"
+        android:layout_y="19dp"
+        android:src="@drawable/config" />
+
+    <ImageButton
+        android:id="@+id/btnconfigSalvar2"
+        android:layout_width="wrap_content"
+        android:layout_height="124dp"
+        android:layout_weight="1"
+        android:layout_x="716dp"
+        android:layout_y="527dp"
+        android:src="@drawable/salvar" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="179dp"
+        android:layout_x="498dp"
+        android:layout_y="527dp"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/btnBKP3"
+            android:layout_width="wrap_content"
+            android:layout_height="124dp"
+            android:layout_weight="1"
+            android:src="@drawable/bkp" />
+
+        <ImageButton
+            android:id="@+id/btnconfigEditar"
+            android:layout_width="wrap_content"
+            android:layout_height="123dp"
+            android:src="@drawable/editar" />
+
+        <ImageButton
+            android:id="@+id/btnconfigSalvar3"
+            android:layout_width="wrap_content"
+            android:layout_height="124dp"
+            android:layout_weight="1"
+            android:src="@drawable/salvar" />
+    </LinearLayout>
+</AbsoluteLayout>
+
+</android.gesture.GestureOverlayView>

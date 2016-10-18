@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="179dp"
+        android:layout_x="283dp"
+        android:layout_y="579dp"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ImageView02"
+        android:layout_width="504dp"
+        android:layout_height="485dp"
+        android:layout_x="849dp"
+        android:layout_y="309dp"
+        android:src="@drawable/fundo" />
+
+    <ImageView
+        android:id="@+id/ImageView01"
+        android:layout_width="375dp"
+        android:layout_height="82dp"
+        android:layout_x="9dp"
+        android:layout_y="3dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="447dp"
+        android:layout_y="4dp"
+        android:text="Laboratório de Instrumentação e  Engenharia Biomédica"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="496dp"
+        android:layout_y="38dp"
+        android:text="Faculdade de Engenharia de Ilha Solteira"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="71dp"
+        android:layout_height="71dp"
+        android:layout_x="1141dp"
+        android:layout_y="5dp"
+        android:src="@drawable/mascote" />
+
+    <ImageButton
+        android:id="@+id/btnCadastro"
+        android:layout_width="146dp"
+        android:layout_height="132dp"
+        android:layout_x="357dp"
+        android:layout_y="502dp"
+        android:scaleType="fitEnd"
+        android:src="@drawable/user" />
+
+    <ImageButton
+        android:id="@+id/btnEvo"
+        android:layout_width="142dp"
+        android:layout_height="132dp"
+        android:layout_x="507dp"
+        android:layout_y="501dp"
+        android:scaleType="fitEnd"
+        android:src="@drawable/grafico" />
+
+    <ImageButton
+        android:id="@+id/btnEvol"
+        android:layout_width="142dp"
+        android:layout_height="132dp"
+        android:layout_x="507dp"
+        android:layout_y="501dp"
+        android:scaleType="fitEnd"
+        android:src="@drawable/grafico" />
+
+    <ImageButton
+        android:id="@+id/btnCadastroAvaliadores"
+        android:layout_width="139dp"
+        android:layout_height="133dp"
+        android:layout_x="655dp"
+        android:layout_y="500dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/doctor" />
+
+    <ImageButton
+        android:id="@+id/btnConfig"
+        android:layout_width="139dp"
+        android:layout_height="133dp"
+        android:layout_x="804dp"
+        android:layout_y="498dp"
+        android:scaleType="fitEnd"
+        android:src="@drawable/config" />
+
+</AbsoluteLayout>

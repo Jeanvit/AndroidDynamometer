@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.gesture.GestureOverlayView xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/gestures"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:eventsInterceptionEnabled="true"
+android:gestureStrokeType="multiple"
+android:orientation="vertical" >
+
+<AbsoluteLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="374dp"
+        android:layout_height="527dp"
+        android:layout_x="435dp"
+        android:layout_y="127dp" >
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="409dp"
+        android:layout_height="523dp"
+        android:layout_x="815dp"
+        android:layout_y="128dp" >
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="374dp"
+        android:layout_height="529dp"
+        android:layout_x="8dp"
+        android:layout_y="130dp" >
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="110dp"
+        android:layout_y="29dp"
+        android:text="Ajuda"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="60sp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_x="23dp"
+        android:layout_y="24dp"
+        android:src="@drawable/ajuda" />
+
+    <ImageView
+        android:id="@+id/ImageView02"
+        android:layout_width="504dp"
+        android:layout_height="485dp"
+        android:layout_x="954dp"
+        android:layout_y="328dp"
+        android:src="@drawable/fundo" />
+
+</AbsoluteLayout>
+</android.gesture.GestureOverlayView>

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="374dp"
+        android:layout_height="375dp"
+        android:layout_x="13dp"
+        android:layout_y="23dp" >
+
+        <EditText
+            android:id="@+id/edtevoId"
+            android:layout_width="254dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/TextView02"
+            android:ems="10"
+            android:enabled="false"
+            android:inputType="textPersonName" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/edtevoPessoa"
+            android:layout_width="254dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/TextView01"
+            android:ems="10"
+            android:enabled="false"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/edtevoPessoa"
+            android:layout_marginTop="14dp"
+            android:text="ID"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="54dp"
+            android:text="Pessoa:"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="374dp"
+        android:layout_height="369dp"
+        android:layout_x="327dp"
+        android:layout_y="23dp" >
+
+        <EditText
+            android:id="@+id/edtUltimoexame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/TextView04"
+            android:ems="10"
+            android:enabled="false" />
+
+        <TextView
+            android:id="@+id/TextView04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="Ultimo exame:"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/edtPrimeiroexame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/TextView03"
+            android:ems="10"
+            android:enabled="false" />
+
+        <TextView
+            android:id="@+id/TextView03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/edtQuantidadeses"
+            android:text="Primeiro exame:"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/edtQuantidadeses"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/tvvalMax"
+            android:ems="10"
+            android:enabled="false" />
+
+        <TextView
+            android:id="@+id/tvvalMax"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="53dp"
+            android:text="Quantidade de sessões:"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="374dp"
+        android:layout_height="539dp"
+        android:layout_x="600dp"
+        android:layout_y="23dp" >
+
+        <TextView
+            android:id="@+id/TextView08"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="59dp"
+            android:text="Mãos:"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <Spinner
+            android:id="@+id/spnevoMaos"
+            android:layout_width="268dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/TextView08" />
+
+        <TextView
+            android:id="@+id/TextView05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/spnevoMaos"
+            android:text="Exames:"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <Spinner
+            android:id="@+id/spnevoExames"
+            android:layout_width="268dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/TextView05" />
+
+    </RelativeLayout>
+
+    <com.example.conexaodb.MultitouchPlot
+        android:id="@+id/graficoMaior2"
+        android:layout_width="683dp"
+        android:layout_height="405dp"
+        android:layout_x="588dp"
+        android:layout_y="261dp"
+        title="Maiores Valores" />
+
+    <com.example.conexaodb.MultitouchPlot
+        android:id="@+id/graficoMedia"
+        android:layout_width="564dp"
+        android:layout_height="405dp"
+        android:layout_x="17dp"
+        android:layout_y="262dp"
+        title="Valores Médios" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="81dp"
+        android:layout_y="7dp"
+        android:text="Evolução"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="50sp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="61dp"
+        android:layout_height="61dp"
+        android:layout_x="19dp"
+        android:layout_y="5dp"
+        android:src="@drawable/grafico" />
+
+    <Button
+        android:id="@+id/btnevoAtualizar"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_x="1043dp"
+        android:layout_y="94dp"
+        android:text="Adicionar" />
+
+    <Button
+        android:id="@+id/btnResetar"
+        android:layout_width="105dp"
+        android:layout_height="wrap_content"
+        android:layout_x="1042dp"
+        android:layout_y="159dp"
+        android:text="Resetar" />
+
+</AbsoluteLayout>

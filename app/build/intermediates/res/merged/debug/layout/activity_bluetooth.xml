@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="374dp"
+        android:layout_height="375dp"
+        android:layout_x="13dp"
+        android:layout_y="23dp" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="Voluntário:"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/edtPessoa"
+            android:layout_width="254dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView1"
+            android:ems="10"
+            android:enabled="false"
+            android:inputType="textPersonName" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/edtResponsavel"
+            android:layout_width="254dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/TextView01"
+            android:ems="10"
+            android:clickable="false" 
+        android:cursorVisible="false" 
+        android:focusable="false" 
+        android:focusableInTouchMode="false"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="Valor máximo:"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/EditText01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/TextView02"
+            android:ems="10"
+            android:enabled="false" />
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/edtPessoa"
+            android:layout_marginTop="28dp"
+            android:text="Responsável:"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="374dp"
+        android:layout_height="369dp"
+        android:layout_x="327dp"
+        android:layout_y="23dp" >
+
+        <EditText
+            android:id="@+id/edtevoPessoa"
+            android:layout_width="254dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/tvvalMax"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/tvvalMax"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="Tempo (s)"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/TextView03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/edtevoPessoa"
+            android:layout_marginTop="28dp"
+            android:text="Mão:"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <Spinner
+            android:id="@+id/spnMao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/TextView03" />
+
+        <EditText
+            android:id="@+id/edtUltimoexame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/TextView04"
+            android:ems="10"
+            android:enabled="false" />
+
+        <TextView
+            android:id="@+id/TextView04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="Valor atual:"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="374dp"
+        android:layout_height="321dp"
+        android:layout_x="600dp"
+        android:layout_y="23dp" >
+
+        <TextView
+            android:id="@+id/TextView08"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="Exame:"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <Spinner
+            android:id="@+id/spnevoMao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/TextView08" />
+
+        <EditText
+            android:id="@+id/edtMedia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/TextView07"
+            android:ems="10"
+            android:enabled="false" />
+
+        <TextView
+            android:id="@+id/TextView07"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/spnevoMao"
+            android:layout_marginTop="85dp"
+            android:text="Valor médio:"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/iniciar"
+        android:layout_width="122dp"
+        android:layout_height="116dp"
+        android:layout_marginLeft="23dp"
+        android:layout_x="1009dp"
+        android:layout_y="42dp"
+        android:minHeight="90dp"
+        android:minWidth="90dp"
+        android:text="Iniciar" />
+
+    <com.androidplot.xy.XYPlot
+        android:id="@+id/graficoMaior"
+        android:layout_width="1267dp"
+        android:layout_height="385dp"
+        android:layout_x="7dp"
+        android:layout_y="279dp" />
+
+    <Chronometer
+        android:id="@+id/chronometer1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="43dp"
+        android:layout_x="1110dp"
+        android:layout_y="186dp"
+        android:text="Chronometer" />
+
+    <TextView
+        android:id="@+id/TextView05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="974dp"
+        android:layout_y="187dp"
+        android:text="Cronômetro"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</AbsoluteLayout>

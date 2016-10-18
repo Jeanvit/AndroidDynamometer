@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="81dp"
+        android:layout_y="7dp"
+        android:text="Visualização de exame"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="50sp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="61dp"
+        android:layout_height="61dp"
+        android:layout_x="19dp"
+        android:layout_y="5dp"
+        android:src="@drawable/grafico" />
+
+    <com.example.conexaodb.MultitouchPlot
+        android:id="@+id/graficoExameind"
+        android:layout_width="1177dp"
+        android:layout_height="495dp"
+        android:layout_x="54dp"
+        android:layout_y="153dp" />
+
+</AbsoluteLayout>

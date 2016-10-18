@@ -1,0 +1,251 @@
+[
+    {
+        "outputFile": "C:\\Users\\Casa\\Desktop\\conexaoDBF1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 8,
+                    "endColumn": 19,
+                    "endOffset": 321
+                },
+                "from": {
+                    "file": "C:\\Users\\Casa\\Desktop\\conexaoDBF1\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 0,
+                        "startOffset": 519,
+                        "endLine": 26,
+                        "endColumn": 19,
+                        "endOffset": 785
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 326,
+                    "endLine": 16,
+                    "endColumn": 19,
+                    "endOffset": 619
+                },
+                "from": {
+                    "file": "C:\\Users\\Casa\\Desktop\\conexaoDBF1\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 0,
+                        "startOffset": 791,
+                        "endLine": 35,
+                        "endColumn": 19,
+                        "endOffset": 1084
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 624,
+                    "endLine": 22,
+                    "endColumn": 19,
+                    "endOffset": 784
+                },
+                "from": {
+                    "file": "C:\\Users\\Casa\\Desktop\\conexaoDBF1\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 216,
+                        "endLine": 12,
+                        "endColumn": 19,
+                        "endOffset": 376
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 789,
+                    "endLine": 26,
+                    "endColumn": 19,
+                    "endOffset": 894
+                },
+                "from": {
+                    "file": "C:\\Users\\Casa\\Desktop\\conexaoDBF1\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 43,
+                        "startColumn": 0,
+                        "startOffset": 1224,
+                        "endLine": 46,
+                        "endColumn": 19,
+                        "endOffset": 1329
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 899,
+                    "endLine": 31,
+                    "endColumn": 19,
+                    "endOffset": 1031
+                },
+                "from": {
+                    "file": "C:\\Users\\Casa\\Desktop\\conexaoDBF1\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 37,
+                        "startColumn": 0,
+                        "startOffset": 1086,
+                        "endLine": 41,
+                        "endColumn": 19,
+                        "endOffset": 1218
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 1036,
+                    "endLine": 36,
+                    "endColumn": 19,
+                    "endOffset": 1171
+                },
+                "from": {
+                    "file": "C:\\Users\\Casa\\Desktop\\conexaoDBF1\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 0,
+                        "startOffset": 378,
+                        "endLine": 18,
+                        "endColumn": 19,
+                        "endOffset": 513
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 1176,
+                    "endColumn": 34,
+                    "endOffset": 1206
+                },
+                "from": {
+                    "file": "C:\\Users\\Casa\\Desktop\\conexaoDBF1\\app\\src\\main\\res\\values\\bools.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 34,
+                        "endOffset": 85
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 1211,
+                    "endColumn": 46,
+                    "endOffset": 1253
+                },
+                "from": {
+                    "file": "C:\\Users\\Casa\\Desktop\\conexaoDBF1\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 58,
+                        "endColumn": 46,
+                        "endOffset": 100
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 39,
+                    "startColumn": 4,
+                    "startOffset": 1258,
+                    "endColumn": 52,
+                    "endOffset": 1306
+                },
+                "from": {
+                    "file": "C:\\Users\\Casa\\Desktop\\conexaoDBF1\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 106,
+                        "endColumn": 52,
+                        "endOffset": 154
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 1311,
+                    "endColumn": 50,
+                    "endOffset": 1357
+                },
+                "from": {
+                    "file": "C:\\Users\\Casa\\Desktop\\conexaoDBF1\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 160,
+                        "endColumn": 50,
+                        "endOffset": 206
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 41,
+                    "startColumn": 4,
+                    "startOffset": 1362,
+                    "endLine": 47,
+                    "endColumn": 12,
+                    "endOffset": 1648
+                },
+                "from": {
+                    "file": "C:\\Users\\Casa\\Desktop\\conexaoDBF1\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 191,
+                        "endLine": 12,
+                        "endColumn": 12,
+                        "endOffset": 481
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 48,
+                    "startColumn": 4,
+                    "startOffset": 1653,
+                    "endLine": 50,
+                    "endColumn": 12,
+                    "endOffset": 1808
+                },
+                "from": {
+                    "file": "C:\\Users\\Casa\\Desktop\\conexaoDBF1\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 522,
+                        "endLine": 17,
+                        "endColumn": 12,
+                        "endOffset": 679
+                    }
+                }
+            }
+        ]
+    }
+]

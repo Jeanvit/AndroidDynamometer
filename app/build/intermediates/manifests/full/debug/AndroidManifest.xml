@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.conexaodb"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
+    </uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.conexaodb.MainActivity"
+            android:configChanges="orientation"
+            android:label="Cadastro"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.example.conexaodb.Activity_visuexame"
+            android:configChanges="orientation"
+            android:label="Exame"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.example.conexaodb.Pesquisa"
+            android:configChanges="orientation"
+            android:label="Pesquisa de voluntários"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.example.conexaodb.listaTestes"
+            android:configChanges="orientation"
+            android:label="Visualização de exames"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.example.conexaodb.Bluetooth"
+            android:configChanges="orientation"
+            android:label="Aquisição de dados"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.example.conexaodb.PesquisaAvaliador"
+            android:configChanges="orientation"
+            android:label="Aquisição de dados"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.example.conexaodb.listaTestesAvaliador"
+            android:configChanges="orientation"
+            android:label="Pesquisa de exames"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.example.conexaodb.Configuracoes"
+            android:configChanges="orientation"
+            android:label="Configurações do Software"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.example.conexaodb.Evolucao"
+            android:configChanges="orientation"
+            android:label="Evolução"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.example.conexaodb.CadastroAvaliadores"
+            android:configChanges="orientation"
+            android:label="Cadastro de Avaliadores"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.example.conexaodb.Calib"
+            android:configChanges="orientation"
+            android:label="Cadastro de Avaliadores"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.example.conexaodb.TelaPrincipal"
+            android:configChanges="orientation"
+            android:label="Tela inicial"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

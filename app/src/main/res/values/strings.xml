@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">conexaoDB</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    
+    <string-array name="itensPesquisa">
+        <item>Nome</item>
+        <item>ID</item>
+        <item>Email</item>
+        <item>Cidade</item>
+    </string-array>
+
+<string-array name="sexos">
+        <item>Masculino</item>
+        <item>Feminino</item>
+        <item>Outro</item>
+    </string-array>
+    
+<string-array name="exames">
+        <item>Flexão da metacarpofalangeana</item>
+        <item>Flexores profundos dos dedos</item>
+        <item>Oponência ao polegar</item>
+        <item>Pinçamento amplo</item>
+        <item>Preensão palmar</item>
+    </string-array>
+    
+<string-array name="examesEvo">
+    	<item>Todos</item>
+        <item>Flexão da metacarpofalangeana</item>
+        <item>Flexores profundos dos dedos</item>
+        <item>Oponência ao polegar</item>
+        <item>Pinçamento amplo</item>
+        <item>Preensão palmar</item>
+    </string-array>
+
+<string-array name="maosEvo">
+    	<item>Ambas</item>
+        <item>Esquerda</item>
+        <item>Direita</item>
+    </string-array>
+    
+<string-array name="maos">
+        <item>Esquerda</item>
+        <item>Direita</item>
+    </string-array>
+    
+</resources>

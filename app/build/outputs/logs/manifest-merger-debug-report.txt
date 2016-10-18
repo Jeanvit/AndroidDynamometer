@@ -1,0 +1,179 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:2:1-77:12
+	package
+		ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:3:5-36
+		INJECTED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:7:6-91
+	android:name
+		ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:7:23-72
+uses-permission#android.permission.BLUETOOTH
+ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:8:3-82
+	android:name
+		ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:8:20-63
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:9:3-10:23
+	android:name
+		ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:9:20-76
+uses-sdk
+ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:12:5-14:41
+	android:targetSdkVersion
+		ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:14:9-38
+		INJECTED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:13:9-34
+		INJECTED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml
+application
+ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:16:5-75:19
+	android:label
+		ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:19:9-41
+	android:allowBackup
+		ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:17:9-35
+	android:icon
+		ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:18:9-45
+	android:theme
+		ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:20:9-40
+activity#com.example.conexaodb.MainActivity
+ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:21:9-25:20
+	android:screenOrientation
+		ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:22:63-100
+	android:label
+		ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:23:13-37
+	android:configChanges
+		ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:22:101-136
+	android:name
+		ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:22:13-62
+activity#com.example.conexaodb.Activity_visuexame
+ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:27:10-31:20
+	android:screenOrientation
+		ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:28:69-106
+	android:label
+		ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:29:13-34
+	android:configChanges
+		ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:28:107-142
+	android:name
+		ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:28:13-68
+activity#com.example.conexaodb.Pesquisa
+ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:33:9-35:15
+	android:screenOrientation
+		ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:33:65-102
+	android:label
+		ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:34:7-46
+	android:configChanges
+		ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:33:103-138
+	android:name
+		ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:33:19-64
+activity#com.example.conexaodb.listaTestes
+ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:37:10-39:15
+	android:screenOrientation
+		ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:37:69-106
+	android:label
+		ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:38:7-45
+	android:configChanges
+		ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:37:107-142
+	android:name
+		ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:37:20-68
+activity#com.example.conexaodb.Bluetooth
+ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:41:9-43:15
+	android:screenOrientation
+		ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:41:66-103
+	android:label
+		ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:42:7-41
+	android:configChanges
+		ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:41:104-139
+	android:name
+		ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:41:19-65
+activity#com.example.conexaodb.PesquisaAvaliador
+ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:45:10-47:15
+	android:screenOrientation
+		ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:45:75-112
+	android:label
+		ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:46:7-41
+	android:configChanges
+		ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:45:113-148
+	android:name
+		ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:45:20-74
+activity#com.example.conexaodb.listaTestesAvaliador
+ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:49:10-51:15
+	android:screenOrientation
+		ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:49:78-115
+	android:label
+		ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:50:7-41
+	android:configChanges
+		ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:49:116-151
+	android:name
+		ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:49:20-77
+activity#com.example.conexaodb.Configuracoes
+ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:53:4-55:15
+	android:screenOrientation
+		ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:53:65-102
+	android:label
+		ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:54:7-48
+	android:configChanges
+		ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:53:103-138
+	android:name
+		ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:53:14-64
+activity#com.example.conexaodb.Evolucao
+ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:57:4-59:15
+	android:screenOrientation
+		ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:57:60-97
+	android:label
+		ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:58:7-31
+	android:configChanges
+		ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:57:98-133
+	android:name
+		ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:57:14-59
+activity#com.example.conexaodb.CadastroAvaliadores
+ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:61:4-63:15
+	android:screenOrientation
+		ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:61:71-108
+	android:label
+		ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:62:7-46
+	android:configChanges
+		ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:61:109-144
+	android:name
+		ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:61:14-70
+activity#com.example.conexaodb.Calib
+ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:65:4-67:15
+	android:screenOrientation
+		ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:65:57-94
+	android:label
+		ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:66:7-46
+	android:configChanges
+		ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:65:95-130
+	android:name
+		ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:65:14-56
+activity#com.example.conexaodb.TelaPrincipal
+ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:68:4-74:15
+	android:screenOrientation
+		ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:68:65-102
+	android:label
+		ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:69:7-35
+	android:configChanges
+		ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:68:103-138
+	android:name
+		ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:68:14-64
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:70:7-73:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:71:17-69
+	android:name
+		ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:71:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:72:17-77
+	android:name
+		ADDED from C:\Users\Casa\Desktop\conexaoDBF1\app\src\main\AndroidManifest.xml:72:27-74

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.gesture.GestureOverlayView xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/gestures1"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:eventsInterceptionEnabled="true"
+android:gestureStrokeType="multiple"
+android:orientation="vertical" >
+
+<AbsoluteLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="44dp"
+        android:layout_y="144dp"
+        android:text="Pesquisar por:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="349dp"
+        android:layout_y="143dp"
+        android:text="em:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_x="49dp"
+        android:layout_y="18dp"
+        android:src="@drawable/procurar" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="142dp"
+        android:layout_y="26dp"
+        android:text="Pesquisa"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="60sp" />
+
+    <Spinner
+        android:id="@+id/spnOpcoes"
+        android:layout_width="268dp"
+        android:layout_height="wrap_content"
+        android:layout_x="340dp"
+        android:layout_y="175dp" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="16dp"
+        android:layout_y="279dp"
+        android:text="Registros:"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:id="@+id/edtPessoa"
+        android:layout_width="254dp"
+        android:layout_height="wrap_content"
+        android:layout_x="39dp"
+        android:layout_y="168dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <ImageButton
+        android:id="@+id/btnNova"
+        android:layout_width="wrap_content"
+        android:layout_height="76dp"
+        android:layout_x="712dp"
+        android:layout_y="131dp"
+        android:src="@drawable/search" />
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="1247dp"
+        android:layout_height="323dp"
+        android:layout_x="16dp"
+        android:layout_y="325dp"
+        android:headerDividersEnabled="@bool/BoolT"
+        android:scrollbarStyle="outsideOverlay"
+        android:scrollbars="horizontal|vertical"
+        android:visibility="visible" >
+    </ListView>
+
+    <ImageView
+        android:id="@+id/ImageView02"
+        android:layout_width="504dp"
+        android:layout_height="485dp"
+        android:layout_x="849dp"
+        android:layout_y="309dp"
+        android:src="@drawable/fundo" />
+
+</AbsoluteLayout>
+</android.gesture.GestureOverlayView>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="androidplot-core-0.5.2-sources">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/androidplot-core-0.5.2-sources.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

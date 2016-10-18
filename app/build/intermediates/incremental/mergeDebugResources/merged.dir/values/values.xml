@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="exames">
+        <item>Flexão da metacarpofalangeana</item>
+        <item>Flexores profundos dos dedos</item>
+        <item>Oponência ao polegar</item>
+        <item>Pinçamento amplo</item>
+        <item>Preensão palmar</item>
+    </string-array>
+    <string-array name="examesEvo">
+    	<item>Todos</item>
+        <item>Flexão da metacarpofalangeana</item>
+        <item>Flexores profundos dos dedos</item>
+        <item>Oponência ao polegar</item>
+        <item>Pinçamento amplo</item>
+        <item>Preensão palmar</item>
+    </string-array>
+    <string-array name="itensPesquisa">
+        <item>Nome</item>
+        <item>ID</item>
+        <item>Email</item>
+        <item>Cidade</item>
+    </string-array>
+    <string-array name="maos">
+        <item>Esquerda</item>
+        <item>Direita</item>
+    </string-array>
+    <string-array name="maosEvo">
+    	<item>Ambas</item>
+        <item>Esquerda</item>
+        <item>Direita</item>
+    </string-array>
+    <string-array name="sexos">
+        <item>Masculino</item>
+        <item>Feminino</item>
+        <item>Outro</item>
+    </string-array>
+    <bool name="BoolT">true</bool>
+    <string name="app_name">conexaoDB</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>
