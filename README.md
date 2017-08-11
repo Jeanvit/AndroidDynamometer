@@ -1,5 +1,5 @@
 # About
-This project is an Android application developed in my Master's (2014) for a biomedical electronic dynamometer with Bluetooth interface.
+This project is an Android app developed by me in my Master's (2014) for a biomedical electronic dynamometer with Bluetooth interface. 
 I decided to make it open-source since I have the option.
 
 # Research Results
@@ -13,4 +13,4 @@ in 2015, so I updated the app to be functional with Android Studio and Gradle.
 
 
 # Additional Information
-You can find additional info about the results by reading my [Master Thesis (Portuguese) at Sao Paulo State University Website](https://repositorio.unesp.br/handle/11449/111109)
+The entire project was done at Sao Paulo State University's LIEB (Instrumentation and Biomedical Engineering Laboratory) under Professor Dr. Aparecido Agusto de Carvalho supervision. You can find additional info about the results by reading my [Master Thesis (Portuguese) at Sao Paulo State University Website](https://repositorio.unesp.br/handle/11449/111109)
