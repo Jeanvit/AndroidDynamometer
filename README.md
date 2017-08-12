@@ -7,7 +7,7 @@ Using the implemented dynamometer and the app, for the first time, the force exe
 I also checked that the analysis of the grip strength was better and more easily achieved with the app.
 
 # Building the app
-The development was done in Eclipse ADT and started late 2012 and ended mid-2014. Unfortunately Eclipse ADT was [discontinued](https://android-developers.googleblog.com/2015/06/an-update-on-eclipse-android-developer.html)
+The development was done in Eclipse ADT starting late-2012 until mid-2014. Unfortunately Eclipse ADT was [discontinued](https://android-developers.googleblog.com/2015/06/an-update-on-eclipse-android-developer.html)
 in 2015, so I updated the app to be functional with Android Studio and Gradle.
 
 Therefore, just clone or download and open it as a project in Android Studio. 
