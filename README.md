@@ -9,7 +9,7 @@ I also checked that the analysis of the grip strength was better and more easily
 # Building the app
 The development started late 2012 and ended mid-2014, so it was originally developed with Eclipse ADT. 
 Unfortunately Eclipse ADT was [discontinued](https://android-developers.googleblog.com/2015/06/an-update-on-eclipse-android-developer.html)
-in 2015, so I updated the app to be functional with Android Studio and Gradle.
+in 2015, so I updated the app to be functional with Android Studio and Gradle. So, just clone or download and open it as a project in Android Studio. 
 
 
 # Additional Information
